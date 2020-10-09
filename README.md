@@ -16,4 +16,4 @@ We evaluate the proposed framework on a target network and discuss the derived r
 ### Results
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cve_relations.png" width=550><br>
 
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cwe-prods.png" width=550><br>
+<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cwe-prods.png"><br>
