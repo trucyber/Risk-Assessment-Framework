@@ -11,9 +11,9 @@ We have used VDIS to:
 We evaluate the proposed framework on a target network and discuss the derived results.
 
 ### Target Network
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Industrial_Network.png" width=400><br>
+<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Industrial_Network.png" width=450><br>
 
 ### Results
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cve_relations.png" width=500><br>
+<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cve_relations.png" width=550><br>
 
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cwe-prods.png" width=500><br>
+<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cwe-prods.png" width=550><br>
