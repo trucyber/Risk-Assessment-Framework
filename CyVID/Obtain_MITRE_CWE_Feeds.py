@@ -1,4 +1,3 @@
-
 # CWE CSV Handler...
 
 # Imports
@@ -24,8 +23,8 @@ def check_files(dir_path):
             os.remove(f)
         print('Done.\n')
     else:
-        print('Creating directory',cwe_files_path, 'to store feeds.', end=' ')
-        directory = os.path.join(os.getcwd()+'\\' + cwe_files_path) 
+        print('Creating directory', dir_path, 'to store feeds.', end=' ')
+        directory = os.path.join(os.getcwd()+'\\' + dir_path) 
         os.mkdir(directory)
         print('Done.\n')
 
