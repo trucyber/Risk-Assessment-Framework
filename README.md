@@ -20,5 +20,5 @@ We evaluate the proposed framework on a target network and discuss the derived r
 
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cwe-prods.png"><br>
 
-### Contact
-Contact the authors for more details and updated version.
+### Updates
+We are in the process of refining and releasing code on the repository, contact the authors for more details and updated information.
