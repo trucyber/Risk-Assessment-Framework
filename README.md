@@ -1,11 +1,11 @@
-# Vulnerability Database Integrated Scanner (VDIS)
-VDIS can be used to extract, refine, merge, classify and utilize vulnerability information from two major vulnerability databases, NIST's NVD and MITRE's CVE.
-We have used VDIS to:
+# Cyber-threats and Vulnerability Information Database (CyVID)
+CyVID can be used to extract, refine, merge, classify and utilize vulnerability information from two major vulnerability databases, NIST's NVD and MITRE's CVE.
+We have used CyVID to:
 * combine datasets from both NVD and CVE into a more descriptive vulnerability information system, 
 * identify vulnerabilities within a target network, and 
 * classify vulnerabilities based on vulnerability types, severity, products, and nodes. 
 
-### VDIS Architecture:
+### CyVID Architecture:
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Module_flow.png"><br>
 
 
