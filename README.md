@@ -1,3 +1,8 @@
+# Quantitative Risk Modeling and Analysis for Large-Scale Cyber-Physical Systems
+Threats of cyber attacks are very real today and greatly impact everything including the public health sector, economics, electric grids, internet of things (IoT), and national security. The number of new evolving threats and reported vulnerabilities has severely increased in the last few years [1]. Perpetually refined cyber-attacks have set data, organizational assets, organizations, and individuals at considerable risk. Protecting sophisticated networks and interdependent systems, or reducing the impact of cyber-attacks has become a major challenge, where today’s effective countermeasures can be completely ineffective tomorrow. The various risk assessment frameworks and methodologies are either high-level, missing risk metrics values, not suitable for all kinds of networks, or publicly not available. To address this issue, we present a quantitative risk assessment model, that helps to model the organizational security posture, evaluates the security controls in place, and provides an understanding of the associated risks. We further provide a detailed explanation of the formulations and evaluate the proposed model on an industrial scenario.
+
+Read more on: [https://ieeexplore.ieee.org/abstract/document/9209654](https://ieeexplore.ieee.org/abstract/document/9209654)
+
 # Cyber-threats and Vulnerability Information Database (CyVID)
 CyVID can be used to extract, refine, merge, classify and utilize vulnerability information from two major vulnerability databases, NIST's NVD and MITRE's CVE.
 We have used CyVID to:
