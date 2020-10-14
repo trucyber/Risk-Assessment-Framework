@@ -27,5 +27,9 @@ We evaluate the proposed framework on a target network and discuss the derived r
 
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cwe-prods.png"><br>
 
+### Setup Instructions:
+* Python libraries: os, glob, requests, re, zipfile, timeit, json, csv, spacy
+* Graphviz should also be available in the path environment variables. 
+
 ### Updates
 We are in the process of refining and releasing code on the repository, contact the authors for more details and updated information.
