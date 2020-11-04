@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 # NVD and MITRE Feed Handler...
 
 # Imports
@@ -190,10 +187,7 @@ def fetch_keywords(text):
     match_list = []
     patterns = [
                 [{'POS': 'PROPN'}, {'POS': {"IN": ["PROPN","NUM", "X", "VERB"]}}],
-                # [{'POS': 'PROPN'}, {'POS': 'PROPN'}, {'POS': 'NUM'}],
-                # [{'POS': 'PROPN'}, {'POS': 'CCONJ'}, {'POS': 'PROPN'}],
                 [{'POS': 'PROPN'}, {'POS': 'PROPN'}, {'POS': {"IN": ["NUM","X","VERB"]}}],    
-                # [{'POS': 'PROPN'}, {'POS': 'PROPN'}, {'POS': {"IN": ["NUM", "X"]}}, {'POS': 'CONJ'}, {'POS': {"IN": ["NUM", "X"]}}],
                ]
     matcher = Matcher(nlp.vocab)
     matcher.add("PROPN-PROPN-NUM", None, patterns[0])
@@ -206,22 +200,17 @@ def fetch_keywords(text):
         string_id = nlp.vocab.strings[match_id]
         span = doc[start:end]
         match_list.append(span.text)
-        # print(span.text) # print(string_id, start, end, span.text)
-    # print('\nExtracted OS and SW keywords:\n', match_list)
     
     # Remove duplicates from the list
     match_list = list(dict.fromkeys(match_list))
-    # print('\nRemoved duplicate OS and SW keywords\n:', match_list)
     
     # Remove subsets from the list ['Microsoft Windows 2000', 'Windows 2000']
     for m in match_list:
         for n in match_list:
             if (len(m) > len(n)) and (set(n).issubset(set(m))):
                 match_list.remove(n)
-    # print('\nSubset OS and SW keywords removed:\n', match_list)
     
     # Extract OS from the list...
-    #ToDo: create an OS List and reference that list instead of these if statements.
     os_list = [idx for idx in match_list if 
             idx.lower().startswith('Microsoft'.lower()) or idx.lower().startswith('Windows'.lower()) or 
             idx.lower().startswith('Ubuntu'.lower()) or idx.lower().startswith('Linux'.lower()) or 
@@ -230,7 +219,6 @@ def fetch_keywords(text):
             idx.lower().startswith('CentOS'.lower()) or idx.lower().startswith('Fedora'.lower()) or 
             idx.lower().startswith('openSUSE'.lower())
           ] 
-    # print('\nOS related keywords:\n', os_list)
 
     # Extract SW names from the list...
     sw_list = []
@@ -247,7 +235,6 @@ def find_ports_from_text(text):
     port_list = []
     nlp = spacy.load('en', disable=['parser', 'tagger', 'ner'])
     doc = nlp(text)
-    # ? (0/1) + (1+) * (0+)
     port_pattern = re.compile(r"[Pp](ort)[s]? [:]?(\d+)?((\d+|less than | and |, |,|/|/ | / | |-)?(\d+))*") #  
 
     for match in re.finditer(port_pattern, doc.text):
@@ -257,7 +244,6 @@ def find_ports_from_text(text):
             # print(f"Ports available: '{doc.text[start:end]}'")
             port_list.append(doc.text[start:end])
         span = doc.char_span(start, end)
-    # print('\nPorts related keywords:\n', port_list)
     return port_list
 
 
@@ -265,7 +251,6 @@ def find_ports_from_text(text):
 # This step reads the JSON files and writes the collected data to a CSV file.
 # Extracting 'CWE_Desc', 'CWE_Plat', 'CWE_Af_Res'
 def fetch_cwe_data(given_cwe_id): 
-#     print('Step 5: Obtaining CWE Information.')    
     # strip CWE- from the given cwe id
     CWE_ID_No = (given_cwe_id.replace('CWE-', ''))
     result = cwe_data.loc[cwe_data['CWE-ID'] == int(CWE_ID_No)]
@@ -288,10 +273,3 @@ read_and_summarize()
 stop = timeit.default_timer()
 execution_time = stop - start
 print("Program Executed in "+str(execution_time)) # It returns time in seconds
-
-
-# In[ ]:
-
-
-
-
