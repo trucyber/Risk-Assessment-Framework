@@ -57,7 +57,6 @@ def read_and_summarize():
         #Loop through input files in the directory...
         for root, dirs, files in os.walk(json_files_path + '/', topdown=False):
             for name in files:
-                #print(os.path.join(root, name))
                 with open(os.path.join(root, name), 'r', encoding=enc) as f:
                     print('Reading from', os.path.join(root, name)+'...', end='')
                     data=json.load(f)
@@ -79,8 +78,7 @@ def read_and_summarize():
                     # Field: CVE_ID, CVE-Description, available for all entries.
                     CVE_ID = data['CVE_Items'][i]['cve']['CVE_data_meta']['ID']
                     CVE_Desc = data['CVE_Items'][i]['cve']['description']['description_data'][0]['value']
-# Testing next 3 lines. disable 2nd and enable 3rd later. 
-# Fetch Keyword is the longest process in the program
+
                     # Extract keywords from the above description
                     CVE_OS, CVE_SW, CVE_Ports = [], [], []
                     CVE_OS, CVE_SW, CVE_Ports = fetch_keywords(str(CVE_Desc))
@@ -152,8 +150,7 @@ def read_and_summarize():
                         M_CVE_MD+=1 
 
                     # Write row to the output CVS file...
-#                     enable next line for debugging...
-                    print(CVE_ID, end=' ')
+                    print(CVE_ID, end=' ') #Currently processing CVE_ID
                     try:
                         writer.writerow([CVE_ID, CVE_Lang, CWE_ID, CWE_Desc, CWE_Plat, CWE_Af_Res, CVE_Sev, CVSS_V2, 
                             CVSS_V3, CVE_VAV, CVE_UIR, CVE_OS, CVE_SW, CVE_Ports, CVE_PD, CVE_MD, CVE_Desc, 
@@ -192,8 +189,6 @@ def fetch_keywords(text):
     matcher = Matcher(nlp.vocab)
     matcher.add("PROPN-PROPN-NUM", None, patterns[0])
     matcher.add("PROPN-PROPN-VERB", None, patterns[1])
-    # matcher.add("verb-noun", None, patterns[2])
-    # matcher.add("verb-noun", None, patterns[3])
     doc = nlp(text)
     matches = matcher(doc)
     for match_id, start, end in matches:
@@ -224,9 +219,7 @@ def fetch_keywords(text):
     sw_list = []
     for elem in match_list:
         if elem not in os_list:
-            sw_list.append(elem)
-    # sw_list = list(dict.fromkeys(sw_list))
-    # print('\nSW related keywords:\n', sw_list)   
+            sw_list.append(elem) 
     return os_list, sw_list, port_list
 
 
