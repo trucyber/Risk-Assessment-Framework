@@ -5,14 +5,14 @@ Threats of cyber attacks are very real today and greatly impact everything inclu
 
 Read more on: [https://ieeexplore.ieee.org/abstract/document/9209654](https://ieeexplore.ieee.org/abstract/document/9209654)
 
-# Cyber-threats and Vulnerability Information Database (CyVID)
-CyVID can be used to extract, refine, merge, classify and utilize vulnerability information from two major vulnerability databases, NIST's NVD and MITRE's CVE.
-We have used CyVID to:
+# Cyber-threats and Vulnerability Information Analyzer (CyVIA)
+CyVIA can be used to extract, refine, merge, classify and utilize vulnerability information from two major vulnerability databases, NIST's NVD and MITRE's CVE.
+We have used CyVIA to:
 * Combine datasets from both NVD and CVE into a more descriptive vulnerability information system, 
 * Identify vulnerabilities within a target network, and 
 * Classify vulnerabilities based on vulnerability types, severity, products, and nodes. 
 
-### CyVID Architecture:
+### CyVIA Architecture:
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Module_flow.png"><br>
 
 
