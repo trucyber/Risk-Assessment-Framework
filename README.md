@@ -13,7 +13,7 @@ We have used CyVIA to:
 * Classify vulnerabilities based on vulnerability types, severity, products, and nodes. 
 
 ### CyVIA Architecture:
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Module_flow_2.png"><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/Module_flow_2.png"><br>
 
 
 ### Target Network
@@ -27,9 +27,9 @@ We evaluate the proposed framework on a target network and discuss the derived r
 
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/cwe-prods.png"><br>
 
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/CVEs_share_top10.png"><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/CVEs_share_top10.png"><br>
 
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/CWEs_share_top10.png"><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/CWEs_share_top10.png"><br>
 
 ### Setup Instructions:
 * Python libraries: os, glob, requests, re, zipfile, timeit, json, csv, spacy
