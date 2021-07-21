@@ -38,7 +38,20 @@ We evaluate the proposed framework on a target network and discuss the derived r
 ### Screen shots in action:
 The programming language used is Python and we have used CouchDB as the backend. We are constantly upgrading the code, parts of the tool may not be available because of the continuous upgrades. As soon as we have a fully tested part, it will be available and screen shots will be provided as well.
 
+At first, we collect CWE data from MITRE.
+
 <img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/CWE_Collection.PNG"><br>
+
+Then, we collect detailed information on these CWEs.
+
+<img src=""><br>
+
+Next we collect CVE Data from NVD Feeds.
+
+<img src=""><br>
+
+
+
 
 
 ### Updates
