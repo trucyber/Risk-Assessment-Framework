@@ -48,9 +48,9 @@ Then, we collect detailed information on these CWEs.
 
 Next we collect CVE Data from NVD Feeds.
 
-<img src=""><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/NVD_Details.PNG"><br>
 
-
+<!--- <img src=""><br> ---> 
 
 
 
