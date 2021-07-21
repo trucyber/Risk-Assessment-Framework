@@ -44,7 +44,7 @@ At first, we collect CWE data from MITRE.
 
 Then, we collect detailed information on these CWEs.
 
-<img src=""><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/CWE_Details.PNG"><br>
 
 Next we collect CVE Data from NVD Feeds.
 
