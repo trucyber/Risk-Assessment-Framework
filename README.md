@@ -54,6 +54,10 @@ Next we collect CVE Data from NVD Feeds.
 
 <img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/NVD_Details.PNG"><br>
 
+After this, we parepare the CyVIA Knowledge-base. 
+
+<img src=""><br>
+
 <!--- <img src=""><br> ---> 
 
 
