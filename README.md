@@ -35,5 +35,11 @@ We evaluate the proposed framework on a target network and discuss the derived r
 * Python libraries: os, glob, requests, re, zipfile, timeit, json, csv, spacy
 * Graphviz should also be available in the path environment variables. 
 
+### Screen shots in action:
+We are constantly upgrading the code, parts of the tool may not be available because of the continuous upgrades. As soon as we have a fully tested part, it will be available and screen shots will be provided as well.
+
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/CWE_Collection.PNG"><br>
+
+
 ### Updates
 We are in the process of refining and releasing code on the repository, contact the authors for more details and updated information.
