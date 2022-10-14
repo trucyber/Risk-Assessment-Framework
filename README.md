@@ -3,7 +3,11 @@ Threats of cyber attacks are very real today and greatly impact everything inclu
 
 <img src="https://github.com/callmead/Risk-Assessment-Framework/blob/master/images/RA-IoT%20(2).png"><br>
 
-Read more on: [https://ieeexplore.ieee.org/abstract/document/9209654](https://ieeexplore.ieee.org/abstract/document/9209654)
+Read more on: 
+[https://eudl.eu/doi/10.4108/eai.25-1-2022.172997](https://eudl.eu/doi/10.4108/eai.25-1-2022.172997)
+[https://ieeexplore.ieee.org/abstract/document/9647584](https://ieeexplore.ieee.org/abstract/document/9647584)
+[https://ieeexplore.ieee.org/abstract/document/9209654](https://ieeexplore.ieee.org/abstract/document/9209654)
+
 
 # Cyber-threats and Vulnerability Information Analyzer (CyVIA)
 CyVIA can be used to extract, refine, merge, classify and utilize vulnerability information from two major vulnerability databases, NIST's NVD and MITRE's CVE.
