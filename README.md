@@ -6,7 +6,7 @@ We have used CyVIA to:
 * Classify vulnerabilities based on vulnerability types, severity, products, and nodes. 
 
 ### CyVIA Architecture:
-<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/Module_flow_2.png"><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/CyVIA-Arch2.png"><br>
 
 ### Target Network
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Industrial_Network.png"><br>
