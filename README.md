@@ -9,10 +9,10 @@ We have used CyVIA to:
 <img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/CyVIA-Arch2.png"><br>
 
 ### CyVIA Network Map
-<img src="[https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Industrial_Network.png](https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/network.PNG)"><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/network.PNG"><br>
 
 ### CyVIA Dependencies Map
-<img src="[https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Industrial_Network.png](https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/dependencies.PNG)"><br>
+<img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/dependencies.PNG"><br>
 
 ### Target Network
 <img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Industrial_Network.png"><br>
