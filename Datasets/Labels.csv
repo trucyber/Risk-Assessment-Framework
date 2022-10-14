@@ -1,0 +1,38 @@
+,
+#,Attack Types
+1,Brute Force Attack
+2,Buffer Overflow
+3,Code Injection
+4,Command and Control
+5,Credentials
+6,Cross-site scripting
+7,Cryptojacking Attack
+8,Denial of Service
+9,Directory Traversal
+10,Disabling Security Tools
+11,DNS Attack
+12,Drive-by Download Attack
+13,Host Redirection
+14,Insider Threat
+15,Macro Viruses
+16,Malicious Powershell
+17,Man-in-the-middle
+18,Masquerade Attack
+19,Meltdown and Spectre Attack
+20,Memory Based Attack
+21,Network Sniffing
+22,Pass the Hash
+23,Privilege Escalation
+24,Ransomware
+25,Sensitive Data Exposure
+26,Server-side Request Forgery
+27,Shadow ITSIM jacking
+28,Social Engineering Attack
+29,Spyware
+30,System Misconfiguration
+31,Typosquatting
+32,Unauthorized Access
+33,Unknown Attack
+34,Watering Hole Attack
+35,Web Session Cookie
+36,Wire Attack
