@@ -14,9 +14,6 @@ We have used CyVIA to:
 ### CyVIA Dependencies Map
 <img src="https://github.com/trucyber/Risk-Assessment-Framework/blob/master/images/dependencies.PNG"><br>
 
-### Target Network
-<img src="https://github.com/callmead/Risk-Assessment-VDB-Extension/blob/master/images/Industrial_Network.png"><br>
-
 ### Results
 We evaluate the proposed framework on a target network and discuss the derived results.
 
