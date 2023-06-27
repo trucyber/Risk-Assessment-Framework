@@ -1,6 +1,5 @@
 # This file has the database connection credentials
-db_user = 'admin'
-db_pass = 'Samsung_1234'
-db_port = '5984'
-#db_host = '192.168.0.90' #localhost
-db_host = 'localhost' #localhost
+db_user = '' # add here
+db_pass = '' # add here
+db_port = '' # add here
+db_host = '' # ip address or localhost if on server
