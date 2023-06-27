@@ -81,7 +81,7 @@ Jupyter Notebooks:
 * 7_Control_Mapper.ipynb : Evaluates network nodes for applied security controls.
 * 8_Process_Monitor.ipynb : Monitors running processes on network nodes.
 * 9_Scheduler.ipynb : Responsible for scheduling jobs to keep a check on updates and network activity.
-* Node Analysis.ipynb : Evaluates each network node and prepares the detailed report for each node. 
+* Node_Analysis.ipynb : Evaluates each network node and prepares the detailed report for each node. 
 
 Other Python files:
 * cyvia_api.py : API file
