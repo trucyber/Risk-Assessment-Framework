@@ -1,0 +1,5 @@
+Open Run Command/Console (Win + R)
+Type: gpedit.msc (Group Policy Editor)
+Browse to Local Computer Policy -> Computer Configuration -> Administrative Templates -> Windows Components -> Windows Powershell.
+Enable "Turn on Script Execution"
+Set the policy as needed. I set mine to "Allow all scripts".
